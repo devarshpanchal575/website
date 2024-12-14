@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url(img.png) no-repeat;
+    background-size: cover;
+}
+#box{
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.89);
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 80px;
+    color: rgba(83, 83, 83, 0.774);
+    background-color: rgba(0, 0, 0, 0.671);
+    transition-duration: 1s;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 5cm;
+    position: relative;
+    cursor: pointer;
+}
+#box:hover{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background: rgba(245, 245, 245, 0.555);
+    color: black;
+    font-size: 25px;
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.493)
+}
+.box1 {
+    margin-top: 40px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1 a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(0, 0, 0, 0.671);
+    text-decoration: none;
+    border-radius: 5cm;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    transition-property: all;
+    transition-duration: 1s;
+}
+span{
+    transition-duration: 1s;
+    color: darkmagenta;
+    border-bottom: 3px solid darkmagenta;
+}
+.top1{
+    transition-duration: 1s;
+}
+.top2{
+    transition-duration: 1s;
+}
+.top3{
+    transition-duration: 1s;
+}
+.top4{
+    transition-duration: 1s;
+}
+.top5{
+    transition-duration: 1s;
+}
+.top6{
+    transition-duration: 1s;
+}
+.top1:hover{
+    background: rgba(245, 245, 245, 0.555);
+    color: darkmagenta;
+    box-shadow: 2px 2px 15px 2px rgba(139, 0, 139, 0.671)
+}
+.top2:hover{
+    background: rgba(245, 245, 245, 0.555);
+    color: darkmagenta;
+    box-shadow: 2px 2px 15px 2px rgba(139, 0, 139, 0.671)
+}
+.top3:hover{
+    background: rgba(245, 245, 245, 0.555);
+    color: darkmagenta;
+    box-shadow: 2px 2px 15px 2px rgba(139, 0, 139, 0.671)
+}
+.top4:hover{
+    background: rgba(245, 245, 245, 0.555);
+    color: darkmagenta;
+    box-shadow: 2px 2px 15px 2px rgba(139, 0, 139, 0.671)
+}
+.top5:hover{
+    background: rgba(245, 245, 245, 0.555);
+    color: darkmagenta;
+    box-shadow: 2px 2px 15px 2px rgba(139, 0, 139, 0.671)
+}
+.top6:hover{
+    background: rgba(245, 245, 245, 0.555);
+    color: rgb(255, 217, 0);
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.493);
+}
+.boxes{
+    padding-top: 30px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+#box1{
+    height: 400px;
+    width: 320px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 17.50px;
+    transition-duration: 1s;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 13px;
+    text-decoration: 3px underline orangered;
+}
+#box2{
+    height: 400px;
+    width: 320px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 17.50px;
+    transition-duration: 1s;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 13px;
+    text-decoration: 3px underline rgb(231, 135, 151);
+}
+#box3{
+    height: 400px;
+    width: 320px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 17.50px;
+    transition-duration: 1s;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 13px;
+    text-decoration: 3px underline rgb(255, 217, 0);
+}
+#box4{
+    height: 400px;
+    width: 320px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 17.50px;
+    transition-duration: 1s;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 13px;
+    text-decoration: 3px underline #193153;
+}
+.img1{
+    height: 260px;
+    width: 280px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.493);
+    transition-duration: 1s;
+    background: url(html.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.img2{
+    height: 260px;
+    width: 280px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.493);
+    transition-duration: 1s;
+    background: url(css.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.img3{
+    height: 260px;
+    width: 280px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.493);
+    transition-duration: 1s;
+    background: url(js.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.img4{
+    height: 260px;
+    width: 280px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.493);
+    transition-duration: 1s;
+    background: url(coding.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.img1 .box1 :hover{
+    box-shadow: 2px 2px 15px 2px rgba(139, 0, 139, 0.671)
+}
+#box2 .box2:hover{
+    box-shadow: 2px 2px 15px 2px rgba(139, 0, 139, 0.671)
+}
+#box3 .box3:hover{
+    box-shadow: 2px 2px 15px 2px rgba(139, 0, 139, 0.671)
+}
+#box4 .box4:hover{
+    box-shadow: 2px 2px 15px 2px rgba(139, 0, 139, 0.671)
+}
+.boxes :hover{
+    box-shadow: 2px 2px 15px 2px rgba(139, 0, 139, 0.671)
+}
